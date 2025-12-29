@@ -45,38 +45,6 @@ if page == "About Me":
         )
 
 # ---------- PROJECTS ----------
-elif page == "Projects":
-    st.title("📊 Projects")
-
-    with st.expander("🔧 Automated Data Cleaning & EDA Tool (Streamlit)"):
-        st.write("""
-        **Tools:** Python, Streamlit, Pandas, NumPy, Scikit-learn  
-        **Description:** Developed an end-to-end Streamlit application for automated data cleaning and exploratory data analysis (EDA) on uploaded CSV files.  
-        Key Features:
-        - Missing value imputation, IQR-based outlier detection, and statistical summaries.
-        - Reduced manual data preprocessing by **75%**, enabling faster insights and cleaner datasets for downstream analysis.
-        """)
-        st.markdown("[🔗 View Project on GitHub](https://github.com/yourusername/automated-eda-tool)")
-
-    with st.expander("📊 Interactive Survey & Insights Dashboard (Streamlit)"):
-        st.write("""
-        **Tools:** Python, Streamlit, Pandas, Plotly  
-        **Description:** Created a real-time data collection and visualization dashboard to analyze survey responses and identify trends through interactive plots.  
-        Key Features:
-        - Automated reporting and visualization.
-        - Eliminated repetitive reporting workflows, improving operational efficiency by **70%**.
-        """)
-        st.markdown("[🔗 View Project on GitHub](https://github.com/yourusername/survey-dashboard)")
-
-    with st.expander("🔧 Manufacturing Quality Prediction"):
-        st.write("""
-        **Tools:** Python, Scikit-learn, Streamlit, Pandas, NumPy  
-        **Description:** Built a predictive analytics system to identify manufacturing defects from sensor data.  
-        Key Features:
-        - Reduced manual quality inspection analysis time by **80%**.
-        - Model training, evaluation, and visualization.
-        """)
-        st.markdown("[🔗 View Project on GitHub](https://github.com/yourusername/manufacturing-quality-prediction)")
 
 # ---------- EXPERIENCE ----------
 elif page == "Experience":
