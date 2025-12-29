@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Your Name | Data Analyst",
+    page_title="Gauri Wani | Data Analyst",
     layout="wide"
 )
 
@@ -13,7 +13,7 @@ page = st.sidebar.radio(
 
 # ---------- ABOUT ----------
 if page == "About Me":
-    st.title("👋 Hi, I'm Your Name")
+    st.title("👋 Hi, I'm Gauri")
 
     st.write("""
     Data Analyst with professional experience at **Aditya Birla Group**.
@@ -63,6 +63,6 @@ else:
     st.title("📬 Contact")
     st.markdown("""
     - **LinkedIn:** your-link  
-    - **GitHub:** your-github  
-    - **Email:** your@email.com
+    - **GitHub:** github/GauriWani
+    - **Email:** gauriwani1212@gmail.com@email.com
     """)
